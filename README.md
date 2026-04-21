@@ -407,7 +407,7 @@ genai-abuse-intelligence/
 
 ### Step 1 — Clone and install
 ```bash
-git clone https://github.com/YOUR_USERNAME/genai-abuse-intelligence.git
+git clone https://github.com/vijaytheegala/GenAI_Abuse_Intelligence_Platform
 cd genai-abuse-intelligence
 pip install -r requirements.txt
 ```
