@@ -18,7 +18,7 @@
 2. [Why This Project Matters](#-why-this-project-matters)
 3. [Live Demo — Web UI](#-live-demo--web-ui)
 4. [System Architecture](#-system-architecture)
-5. [Datasets — 6 Sources, 300K+ Samples](#-datasets--6-sources-300k-samples)
+5. [Datasets — 5 Sources, 300K+ Samples](#-datasets--6-sources-300k-samples)
 6. [Data Pipeline — Bronze → Silver → Gold](#-data-pipeline--bronze--silver--gold)
 7. [Feature Engineering](#-feature-engineering)
 8. [ML Models & Results](#-ml-models--results)
@@ -156,7 +156,7 @@ The model is **deployed as a live web application**. Anyone can test it:
 
 ---
 
-## 🗂️ Datasets — 6 Sources, 300K+ Samples
+## 🗂️ Datasets — 5 Sources, 300K+ Samples
 
 This project intentionally combines **multiple real-world datasets** from different sources — exactly how production Trust & Safety systems work, where data comes from many signal types simultaneously.
 
@@ -167,7 +167,6 @@ This project intentionally combines **multiple real-world datasets** from differ
 | 3 | **ToxicChat** | HuggingFace (LMSYS) | ~10,000 | Toxicity in AI chat | Real user-AI conversations — captures how real people actually attempt abuse |
 | 4 | **Jigsaw Toxic Comments** | Kaggle (Google Jigsaw) | ~160,000 | Social media toxicity | 6 toxicity dimensions, Wikipedia comments — large-scale real-world abuse data |
 | 5 | **HackAPrompt** | HuggingFace | ~600,000 | Prompt injection | Largest prompt injection dataset — adversarial attacks on LLMs with success/fail labels |
-| 6 | **Credit Card Fraud** | Kaggle (ULB) | ~284,000 | Financial fraud | Behavioral anomaly detection — demonstrates cross-domain abuse pattern analysis |
 
 **Total after merging and deduplication: ~300,000+ unique samples**
 
