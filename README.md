@@ -458,24 +458,6 @@ Some prompts that evade the XGBoost classifier (low jailbreak keyword matches) a
 
 ---
 
-## 🎯 Alignment with Google Trust & Safety
-
-This project was built with explicit alignment to the **AI Safety Data Scientist, Trust & Safety** role at Google. Here is how each project component maps to the role's requirements:
-
-| Google JD Requirement | This Project's Implementation |
-|---|---|
-| "Develop safety solutions for AI products using ML techniques" | XGBoost + toxic-bert two-layer classification system |
-| "Apply statistical and data science methods to examine protection measures" | Hypothesis testing on feature correlations, EDA on harm distributions |
-| "Build automated data pipelines and self-service dashboards" | Bronze-Silver-Gold Medallion pipeline + Streamlit dashboard |
-| "Craft data stories for stakeholders including senior leadership" | README findings section, visual reports in /reports/ |
-| "Work with LLM/AI technology to mitigate risks" | toxic-bert LLM safety evaluator module |
-| "Experience in abuse and fraud environments" | Multi-dataset system covering jailbreaks, toxicity, fraud |
-| "Identify workflow pain points, optimize and automate" | Automated ingestion pipeline, Parquet optimization, cached dashboard |
-| "Python, SQL, Scikit-learn, statistical analysis" | Python throughout, Scikit-learn models, statistical EDA |
-| "Comfortable interacting with stakeholders" | Dashboard designed for non-technical stakeholders |
-
----
-
 ## 🔮 Future Work
 
 - [ ] **Fine-tune DistilBERT** on the gold dataset for higher semantic accuracy
@@ -490,12 +472,12 @@ This project was built with explicit alignment to the **AI Safety Data Scientist
 
 ## 👤 Author
 
-**Vijaykumar Theegala**
+**Vijay Kumar Theegala**
 Data Scientist | Amazon Trust & Safety | AI Safety Research
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![Email](https://img.shields.io/badge/Email-theegalavijay7@gmail.com-red?style=flat-square&logo=gmail)](mailto:theegalavijay7@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/vijaytheegala)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/vijay-kumar-theegala-69b7bb190)
+[![Email](https://img.shields.io/badge/Email-theegalavijay18@gmail.com-red?style=flat-square&logo=gmail)](mailto:theegalavijay18@gmail.com)
 
 ---
 
