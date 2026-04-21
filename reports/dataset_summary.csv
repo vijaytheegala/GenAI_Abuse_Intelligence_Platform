@@ -1,0 +1,7 @@
+dataset,samples,harmful_percentage
+WildGuard,100000,0.45
+Aegis,50000,0.30
+ToxicChat,20000,0.15
+HackAPrompt,80000,0.50
+Jigsaw,50000,0.20
+Total,300000,0.35
